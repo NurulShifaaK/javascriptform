@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <h2 id="containerheading"></h2>
+        <div class="title">
+            <h2>Registration Form</h2>
+            <div class="tablebox"></div>
+        </div>
+
+      <div class="container1">
+        <div class="box">
+            <div class="progress_container">
+             <div class="progress">
+                
+                    <p>step1</p>
+                    <p>step2</p>
+                    <p>step3</p>
+                
+            </div>
+            
+             <div class="icon">
+                
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <div class="line">
+                       <div class="progressline">
+
+                       </div>
+                 </div>
+           </div>
+             <div class="content1">
+                <section id="form">
+        <form id="userForm" class="form">
+            <div class="sname" >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+             <div class="semail">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email:">
+            </div>
+          <div class="snumber">
+                <label for="Phone.No">Phone.No:</label>
+                <input type="number" id="number" name="number" placeholder="Enter your mobo.NO">
+            </div>
+            <div>
+                <label for="gender" class="sgender">Gender:</label>
+               <div>
+                 <input type="radio" id="male" name="gender" value="Male">
+                    <label type="radio" for="male">Male</label>
+                    
+                    
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label type="radio" for="female">Female</label>
+                </div>
+            </div>
+            </form>
+            </section>
+
+            <div class="nextbtn"><button type="button" class="btn" >Next</button></div>
+        </form>
+      </div>
+
+
+
+
+      <div class="content2">
+        <section id="form">
+      <form id="userForm" class="form">
+        <div class="sdob">
+    <label for="sdob">Date of Birth:</label>
+   <input class="dateofb" type="date" id="dob" name="dob" required>
+   </div>
+
+    <div class="scourse">
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="">Select a Course</option>
+            <option value="ai">AI/ML</option>
+              <option value="FSD">FULL STACK DEVELOPMENT</option>
+                <option value="CYBER">CYBERSECURITY</option>
+        </select>
+    </div>
+
+ <div class="syear">
+  <label for="year">Year of Study:</label>
+   <select id="year" name="year" required> 
+    <option value="">--Select Year--</option>
+    <option value="1st">1st Year</option>
+    <option value="2nd">2nd Year</option>
+    <option value="3rd">3rd Year</option>
+    <option value="4th">4th Year</option>
+    <option value="Fresher">Fresher</option>
+    
+  </select>
+</div>
+
+   <div class="saddress">
+  <label for="address" class="add">Address:</label>
+  <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+</div>
+</form>
+</section>
+
+<div class="con2btns">
+  <div class="prebtn"><button type="button" class="btn2" >Previous</button></div>
+ <div class="nextbtn2"><button type="button" class="btn3" id="finalbtn" >Next</button></div>
+</div>
+
+
+
+</div>
+<div class="content3">
+<div><button class="submitbtn" type="button">Submit</button></div>
+<div><button class="prebtn2" type="button">previous</button></div>
+<div><button class="tablebtn" type="button">DataTable</button></div>
+</div>
+
+
+
+</div>
+
+</div>
+   
+
+</div>
+</form>
+ 
+<div class="content4box">
+ <div class="content4">
+  <div>
+   <h2>Registration</h2>
+   </div>
+   <div  class="iconify">
+   <img  src="./check.png">
+   </div>
+   <div>
+   <h3>Registration Sucessfully Completed</h3>
+  
+   </div>
+</div> 
+</div>
+
+
+<section id="table" class="data">
+    <table id="userTable" style="border-collapse:collapse;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Number</th>
+            <th>Gender</th>
+            <th>DOB</th>
+            <th>Course</th>
+            <th>YearofStudy</th>
+            <th>Address</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+      
+        </tbody>
+    </table>
+   <div class="editregbtn">
+    <button id="editbtn">Edit</button>
+      <button id="regbtn">Register</button>
+      </div>
+    </section>
+  
+
+   <script src="script.js"></script>
+</body>
+</html>

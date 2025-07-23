@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap");
+*{
+     font-family: "Outfit", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+background-color: #f3dbf8;
+}
+:root {
+  --main-color: #9e86a2;
+  --dark-color:  #603e66;
+  --step-color: #ced7e0;
+ 
+}
+.title{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+
+.icon{
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.progress_container {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px ;
+  gap: 10px;
+ flex-direction: column;
+  
+}
+.icon p{
+  
+     display: flex;
+    justify-content: center; 
+    background-color: var(--main-color);
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    align-content: center;
+    z-index: 2;
+}
+.icon{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    width: 240px;
+    background-color: var(--step-color);
+    height: 4px;
+    top: 7px;
+   z-index: 1;
+ 
+}
+.progressline{
+   
+  height: 100%;
+    width: 0%;
+    background-color:#603e66;
+   transition: width 1s ease;
+    transition-duration: 1.5s;
+ 
+}
+.progress{
+display: flex;
+gap: 90px;
+justify-content: center;
+align-items: center;
+}
+.box{
+    margin-top: 50px;
+     background-color: white;
+    height: 420px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+}
+.container1{
+display: grid;
+place-items: center;
+
+}
+.content1{
+    margin-top: 20px;
+     /* display: flex;
+     justify-content: center; */
+     display: grid;
+     place-items: center;
+  
+}
+.content2{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    display: none;
+}
+.form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.sname input ,.semail input,.snumber input{
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+input[type="radio"] {
+  accent-color:var(--dark-color)
+}
+
+#sname input ,#semail input{
+    margin-left: 25px;
+}
+.nextbtn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 25px;
+padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 200px;
+
+}
+.deletebtn{
+    padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+}
+.sdob input{
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 12px;
+    width: 200px;
+
+}
+#scourse{
+    padding: 3px;
+    border-radius: 10px;
+        margin-left: 53px;
+}
+#syear{
+     padding: 3px;
+    border-radius: 10px;
+        margin-left: 10px;
+        width: 200px;
+}
+#saddress{
+       padding: 3px;
+    border-radius: 10px;
+        display: block;
+        width: 300px; 
+       
+}
+.con2btns{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.btn2{
+   padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 150px; 
+}
+.btn3{
+      padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 150px; 
+}
+.editregbtn button{
+margin-top: 20px;
+padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 150px; 
+}
+.content3{
+   display: grid; 
+   gap: 40px;
+   place-items: center;
+    display: none; 
+    margin-top: 50px;
+}
+.content3 button{
+padding: 5px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 150px; 
+
+}
+ .iconify img{
+    height: 70px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+   
+} 
+
+.content4{
+   display: grid;
+   place-items: center;
+    display: none;
+    background-color: white; 
+    padding: 30px; 
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.content4box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.tablebox{
+    height: 1px;
+    width: 1px;
+    border: #603e66;
+    position: relative;
+}
+
+.data {
+  position: fixed; 
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  display: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+#userTable thead{
+     background-color: #603e66;
+    color: white; 
+       
+}
+#userTable tr{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+  
+    padding: 15px;
+}
+#userTable th{
+    padding: 15px;
+}
+
+.delete-btn{
+    background-color: #603e66;
+    padding: 10px;
+    color: white;
+   border-radius: 10px;
+   border: none;
+  
+}
+@media  screen and (max-width:600px) {
+    .data {
+  padding: 0%;
+ width: 500px;
+font-size: small;
+display: grid;
+place-items: center;
+gap: 5px;
+display: none;
+
+}
+
+#userTable th{
+    padding: 0px;
+ 
+}
+#userTable tr{
+    display: flex;
+    gap:10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#userTable thead{
+     background-color: #603e66;
+    color: white; 
+    
+}
+
+}
