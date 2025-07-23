@@ -307,7 +307,7 @@ width: 150px;
     .data {
   padding: 0%;
  width: 500px;
-font-size: small;
+font-size:x-small;
 display: grid;
 place-items: center;
 display: none;
@@ -339,9 +339,10 @@ border: none;
 background-color: #603e66;
 color: white;
 width: 100px; 
+font-size:x-small;
 }
 .delete-btn{
- 
+ font-size:x-small;
     background-color: #603e66;
     padding: 3px;
     color: white;
