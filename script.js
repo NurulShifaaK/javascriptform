@@ -26,11 +26,11 @@ const regbtn=document.getElementById("regbtn");
 btn.addEventListener("click", function () {
  progressline.style.width = "50%";
  content1.style.display="none";
-  content2.style.display="block";
+  content2.style.display="grid";
 });
 btn2.addEventListener("click",function(){
      progressline.style.width = "0%";
-      content1.style.display="block";
+      content1.style.display="grid";
   content2.style.display="none";
 })
 btn3.addEventListener("click",function(){
@@ -41,7 +41,7 @@ btn3.addEventListener("click",function(){
 prebtn2.addEventListener("click",function(){
     progressline.style.width = "50%";
      content3.style.display="none";
-     content2.style.display="block";
+     content2.style.display="grid";
 })
 submitbtn.addEventListener("click",function(){
     content4.style.display="grid";
