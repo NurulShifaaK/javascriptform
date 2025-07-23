@@ -15,7 +15,7 @@ const tableBody = document.getElementById("userTable").querySelector("tbody");
 const data=document.querySelector(".data");
 const editbtn=document.getElementById("editbtn");
 const regbtn=document.getElementById("regbtn");
-
+const tit=document.getElementById("tit");
 
 
 
@@ -46,6 +46,9 @@ prebtn2.addEventListener("click",function(){
 submitbtn.addEventListener("click",function(){
     content4.style.display="grid";
     container1.style.display="none";
+     tit.style.display="none";
+
+
 })
 tablebtn.addEventListener("click",function(){
        data.style.display="grid";
@@ -61,6 +64,7 @@ editbtn.addEventListener("click",function(){
 regbtn.addEventListener("click",function(){
   data.style.display="none";
    content4.style.display="grid";
+   tit.style.display="none";
 })
 
 

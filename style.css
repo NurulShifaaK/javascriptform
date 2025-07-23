@@ -8,8 +8,7 @@
 body{
 background-color: #f3dbf8;
 color:black
-height: 100vh;
-overflow: hidden;
+
 }
 :root {
   --main-color: #9e86a2;
@@ -17,6 +16,7 @@ overflow: hidden;
   --step-color: #ced7e0;
  
 }
+
 .title{
     display: grid;
     place-items: center;
@@ -132,7 +132,7 @@ input[type="radio"] {
     justify-content: center;
 }
 .btn{
-    margin-top: 25px;
+margin-top: 25px;
 padding: 5px;
 border-radius: 10px;
 border: none;
@@ -142,7 +142,7 @@ width: 200px;
 
 }
 .deletebtn{
-    padding: 5px;
+padding: 5px;
 border-radius: 10px;
 border: none;
 background-color: #603e66;
@@ -159,8 +159,6 @@ color: white;
     display:flex;
     gap: 20px;
     padding: 3px;
-   
-    /* margin-left: 53px; */
 }
 #course{
    border-radius: 10px;
@@ -256,12 +254,10 @@ width: 150px;
     
 }
 .content4box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     height: 100vh;
-
+    display: grid;
+    place-items: center;
 }
+
 
 
 .tablebox{
@@ -272,7 +268,7 @@ width: 150px;
 }
 
 .data {
-  position: fixed; 
+  position: absolute; 
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -281,7 +277,7 @@ width: 150px;
   display: none;
   padding: 20px;
   border-radius: 10px;
-   overflow-y: auto; 
+   /* overflow-y: auto;  */
 }
 #userTable thead{
      background-color: #603e66;
