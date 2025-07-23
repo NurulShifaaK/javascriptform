@@ -8,6 +8,8 @@
 body{
 background-color: #f3dbf8;
 color:black
+height: 100vh;
+overflow: hidden;
 }
 :root {
   --main-color: #9e86a2;
@@ -33,7 +35,6 @@ color:black
 .progress_container {
   display: flex;
   justify-content: center;
-
   margin-top: 30px ;
   gap: 10px;
  flex-direction: column;
@@ -89,6 +90,7 @@ align-items: center;
 .container1{
 display: grid;
 place-items: center;
+
 
 }
 .content1{
@@ -257,7 +259,8 @@ width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+     height: 100vh;
+
 }
 
 
@@ -278,6 +281,7 @@ width: 150px;
   display: none;
   padding: 20px;
   border-radius: 10px;
+   overflow-y: auto; 
 }
 #userTable thead{
      background-color: #603e66;
@@ -288,7 +292,6 @@ width: 150px;
     display: flex;
     gap: 20px;
     border-radius: 10px;
-  
     padding: 15px;
 }
 #userTable th{
@@ -348,7 +351,6 @@ font-size:x-small;
     color: white;
    border-radius: 10px;
    border: none;
-  
 }
 
 }
@@ -361,4 +363,11 @@ font-size:x-small;
 }
 #address{
     padding: 5px;
+}
+.content2 {
+  color: black;
+}
+
+.content2 input[type="date"] {
+  color: black;
 }
