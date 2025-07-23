@@ -151,23 +151,38 @@ color: white;
     width: 200px;
 
 }
-#scourse{
+.scourse{
+    display:flex;
+    gap: 20px;
     padding: 3px;
-    border-radius: 10px;
-        margin-left: 53px;
+   
+    /* margin-left: 53px; */
 }
-#syear{
-     padding: 3px;
-    border-radius: 10px;
-        margin-left: 10px;
-        width: 200px;
+#course{
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 30px;
 }
-#saddress{
-       padding: 3px;
-    border-radius: 10px;
-        display: block;
-        width: 300px; 
+.syear{
+     display: flex;
+     gap: 10px;
        
+}
+#year{
+    padding: 5px;
+     border-radius: 10px;
+}
+
+
+#address{
+ padding: 5px;
+ border-radius: 10px;
+
+}
+.saddress{
+    display: flex;
+     gap: 45px;
+     
 }
 .con2btns{
     margin-top: 20px;
@@ -290,26 +305,53 @@ width: 150px;
 font-size: small;
 display: grid;
 place-items: center;
-gap: 5px;
 display: none;
-
+gap: 0;
 }
 
 #userTable th{
-    padding: 0px;
+    padding: 2px;
  
 }
 #userTable tr{
+     margin-top: 10px;
     display: flex;
-    gap:10px;
     border-radius: 10px;
-    padding: 10px;
-
+     padding: 0px;
+     gap: 5px;
 }
 #userTable thead{
      background-color: #603e66;
     color: white; 
     
 }
+.editregbtn button{
+margin-top: 20px;
+padding: 3px;
+border-radius: 10px;
+border: none;
+background-color: #603e66;
+color: white;
+width: 100px; 
+}
+.delete-btn{
+ 
+    background-color: #603e66;
+    padding: 3px;
+    color: white;
+   border-radius: 10px;
+   border: none;
+  
+}
 
+}
+#course, #year {
+  color: black;
+}
+
+#course option, #year option {
+  color: black;
+}
+#address{
+    padding: 5px;
 }
