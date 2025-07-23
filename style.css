@@ -93,8 +93,6 @@ place-items: center;
 }
 .content1{
     margin-top: 20px;
-     /* display: flex;
-     justify-content: center; */
      display: grid;
      place-items: center;
   
@@ -117,7 +115,7 @@ place-items: center;
     
 }
 .snumber input{
-    width: 150px;
+    width: 160px;
 }
 
 input[type="radio"] {
